@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import assets from '../assets/assets'
-import { useUserContext } from '../context/userContext'
+import { useUserContext } from '../context/UserContext'
 
 const Details = () => {
   const { state, dispatch } = useUserContext();
