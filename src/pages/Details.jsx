@@ -81,7 +81,7 @@ const Details = () => {
                         <tbody className='text-white'>
                             {currentUsers.map((user) => (
                             <tr key={user.id} className='border-t border-slate-700'>
-                                <td className='pr-4 py-4 flex items-center gap-3'>
+                                <td className='mt-5 smx:mt-0 pr-4 py-4 flex items-center gap-3'>
                                     <img src={user.image} className='w-8 rounded-lg' alt={user.firstName} />
                                     <div className='text-xs'>
                                         <p className='text-zinc-300 text-[13px] font-semibold'>{user.firstName} {user.lastName}</p>
